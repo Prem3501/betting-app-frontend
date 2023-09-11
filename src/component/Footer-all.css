@@ -1,0 +1,15 @@
+.container {
+    background-color: white;
+  }
+  
+  /* Apply black font color to all text elements inside the footer */
+  .container * {
+    color: black;
+  }
+  #payment{
+      margin-left: 5pc;
+  }
+  .footer {
+    position: absolute;
+   text-align: left;
+  }

@@ -1,0 +1,186 @@
+{
+  "bettingAppReviews": [
+    {
+      "id": 1,
+      "reviewer_name": "John Doe",
+      "rating": 4.5,
+      "comment": "I really enjoy using this betting app. It's user-friendly and has a wide variety of sports to bet on."
+    },
+    {
+      "id": 2,
+      "reviewer_name": "Jane Smith",
+      "rating": 5.0,
+      "comment": "This betting app is amazing! It offers great odds and has a smooth interface. Highly recommended."
+    },
+    {
+      "id": 3,
+      "reviewer_name": "Robert Johnson",
+      "rating": 3.2,
+      "comment": "The app is decent, but I've experienced some issues with payouts. Customer support needs improvement."
+    },
+    {
+      "id": 4,
+      "reviewer_name": "Alice Anderson",
+      "rating": 4.0,
+      "comment": "I've been using this app for a while, and it's been reliable. However, occasional glitches can be annoying."
+    },
+    {
+      "id": 5,
+      "reviewer_name": "Michael Brown",
+      "rating": 2.5,
+      "comment": "Not satisfied with the app. Odds are not competitive, and the overall experience is below expectations."
+    },
+    {
+      "id": 6,
+      "reviewer_name": "Emily Wilson",
+      "rating": 4.8,
+      "comment": "If you're a sports enthusiast, this app is perfect. It offers a wide range of sports and markets."
+    },
+    {
+      "id": 7,
+      "reviewer_name": "Christopher Taylor",
+      "rating": 3.0,
+      "comment": "It's an average app. There are better options, but it gets the job done for casual bettors."
+    },
+    {
+      "id": 8,
+      "reviewer_name": "Olivia Johnson",
+      "rating": 4.2,
+      "comment": "Fast payouts make this app a good choice. It's reliable and efficient for sports betting."
+    },
+    {
+      "id": 9,
+      "reviewer_name": "Daniel Smith",
+      "rating": 4.6,
+      "comment": "This app is excellent. It has a variety of markets and competitive odds, making it a top choice for betting."
+    },
+    {
+      "id": 10,
+      "reviewer_name": "Sophia Davis",
+      "rating": 4.9,
+      "comment": "I'm highly satisfied with this app. It's the best I've used, offering everything a bettor needs."
+    },
+    {
+      "id": 11,
+      "reviewer_name": "William Martinez",
+      "rating": 3.7,
+      "comment": "It's a good app, but there's room for improvement in terms of the user interface and support."
+    },
+    {
+      "id": 12,
+      "reviewer_name": "Mia Adams",
+      "rating": 4.3,
+      "comment": "Positive experience with this app. It's reliable and offers a variety of betting options."
+    },
+    {
+      "id": 13,
+      "reviewer_name": "James Anderson",
+      "rating": 2.8,
+      "comment": "Not entirely satisfied. Odds are subpar, and technical issues have been frustrating."
+    },
+    {
+      "id": 14,
+      "reviewer_name": "Ava Taylor",
+      "rating": 4.7,
+      "comment": "Exceeded my expectations. Smooth experience and great odds make this app stand out."
+    },
+    {
+      "id": 15,
+      "reviewer_name": "Liam Brown",
+      "rating": 4.1,
+      "comment": "A good app, but some minor issues need attention. Worth trying for sports bettors."
+    },
+    {
+      "id": 16,
+      "reviewer_name": "Ella Garcia",
+      "rating": 3.5,
+      "comment": "Decent choice for beginners. User-friendly and straightforward."
+    },
+    {
+      "id": 17,
+      "reviewer_name": "Benjamin Johnson",
+      "rating": 4.0,
+      "comment": "Reliable app with competitive odds. A solid choice for betting enthusiasts."
+    },
+    {
+      "id": 18,
+      "reviewer_name": "Grace Smith",
+      "rating": 4.9,
+      "comment": "Outstanding betting experience. No major issues and quick payouts."
+    },
+    {
+      "id": 19,
+      "reviewer_name": "Henry Williams",
+      "rating": 3.3,
+      "comment": "An okay app, but there are better options available. User interface could be improved."
+    },
+    {
+      "id": 20,
+      "reviewer_name": "Chloe Davis",
+      "rating": 4.6,
+      "comment": "Highly satisfied with this app. Offers a variety of sports and markets."
+    },
+    {
+      "id": 21,
+      "reviewer_name": "Alexander Martinez",
+      "rating": 4.2,
+      "comment": "A good app, but some tweaks could improve the user experience."
+    },
+    {
+      "id": 22,
+      "reviewer_name": "Zoe Brown",
+      "rating": 4.7,
+      "comment": "I love this app! It's made my betting experience much better."
+    },
+    {
+      "id": 23,
+      "reviewer_name": "Liam Johnson",
+      "rating": 3.8,
+      "comment": "Decent app, but it doesn't stand out. Gets the job done."
+    },
+    {
+      "id": 24,
+      "reviewer_name": "Nora Adams",
+      "rating": 4.4,
+      "comment": "Satisfied with the app. It's been a valuable tool for my betting activities."
+    },
+    {
+      "id": 25,
+      "reviewer_name": "Lucas Smith",
+      "rating": 4.5,
+      "comment": "Excellent app. Extremely satisfied with it. Top-notch features and odds."
+    },
+    {
+      "id": 26,
+      "reviewer_name": "Isabella Wilson",
+      "rating": 4.8,
+      "comment": "Impressive app! Easy to use and offers a wide range of betting options."
+    },
+    {
+      "id": 27,
+      "reviewer_name": "William Davis",
+      "rating": 3.6,
+      "comment": "A decent betting app, but it could be better. Some areas need improvement."
+    },
+    {
+      "id": 28,
+      "reviewer_name": "Abigail Lee",
+      "rating": 4.7,
+      "comment": "I've had a great experience with this app. Reliable and offers great odds."
+    },
+    {
+      "id": 29,
+      "reviewer_name": "David Clark",
+      "rating": 4.2,
+      "comment": "Good app, but could use some enhancements for a smoother experience."
+    },
+    {
+      "id": 30,
+      "reviewer_name": "Sophie Turner",
+      "rating": 4.5,
+      "comment": "I'm impressed with this app. It's become my go-to choice for betting."
+    }
+   
+   
+    ]
+}

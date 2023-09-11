@@ -1,0 +1,22 @@
+.lastlinks ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* To evenly space the items */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .lastlinks li {
+    text-align: center; /* Center text within each list item */
+    flex: 1; /* Equal spacing between items */
+  }
+  
+  .lastlinks li a {
+    text-decoration:none; /* Add underline to links */
+    color: inherit; /* Inherit the color from parent */
+    display: block; /* Make the entire list item clickable */
+  }
+  
+  .lastlinks li a:hover {
+    color: #007bff; /* Change color on hover (you can customize this) */
+  }
+  
