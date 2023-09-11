@@ -6,21 +6,26 @@
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
-    text-align: center;
-    padding: 15px;
+    text-align:center;
+    padding-right: 23px;
     margin: 0 20px 20px 140px;
   
 
   }
+  #buttonbox button{
+    flex: 1 1 ;
+    margin: 0 25px;
+  }
   
   #share-icon {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-left:220px;
     margin-top: -60px;
+    
   }
   
   .row {
