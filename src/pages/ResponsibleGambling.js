@@ -1,11 +1,21 @@
 import React from 'react';
 import Sidebar from '../component/sidebar';
+import Navbar from "../component/Navbar";
+import Heroimagebanner from "../component/Heroimagebanner";
+import Footerall from "../component/Footerall";
+import CenterContentRes from "../component/CenterContentRes";
+
+
 
 function Responsiblegambling() {
   return (
     <div>
-    <Sidebar />
-      <h1>Responsible Gambling</h1>
+    <Navbar />
+     <Heroimagebanner /> 
+     <Sidebar />
+     <CenterContentRes />
+     <Footerall />
+     
     </div>
   );
 }

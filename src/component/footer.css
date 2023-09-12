@@ -8,6 +8,7 @@
     background-color: #000000; /* Add your desired background color */
     color: #fff; /* Add text color */
     padding: 20px; /* Add padding for content within the container */
+    border-radius: 10px;
   }
   
   #capture {

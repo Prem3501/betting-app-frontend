@@ -1,0 +1,17 @@
+.res-container{
+    width: 950px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:10px;
+    margin-left: 22pc;
+    margin-top:-45pc;
+    border-radius: 10px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: poppins;
+    font-weight:normal;
+}
