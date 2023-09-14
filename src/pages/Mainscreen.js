@@ -6,6 +6,7 @@ import Twocards from '../component/twocards';
 import Lastbanner from '../component/lastbanner';
 import Review from '../component/review';
 import Footer from '../component/footer';
+import './Mainscreen.css';
 
 
 

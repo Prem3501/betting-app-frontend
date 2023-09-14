@@ -165,20 +165,10 @@ function Sidebar(){
                         <div className="col-md-4"><span>Kabbadi</span></div>
                         </div>
 </a>
-                    
-                        
-                  
               </div>
-              
             </div>
           </nav>
-         
-         
         </header>
-        
-        // <main style="margin-top: 58px;">
-        //   <div className="container pt-4"></div>
-        // </main>
         
     )
   }

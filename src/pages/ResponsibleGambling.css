@@ -1,0 +1,37 @@
+.sidebar {
+    margin: -18pc 10pc 0px -85px;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 60px 0 0; /* Height of navbar */
+    width: 320px;
+    z-index: 600;
+    border-radius: 10px;
+}
+
+.res-container{
+    width: 950px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding:10px;
+    margin-left: 22pc;
+    margin-top: -68pc;
+    border-radius: 10px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: poppins;
+    font-weight:normal;
+}
+
+.footer-container{
+    margin: 2pc 0 0 22pc;
+    width: 970px;
+    height: auto;
+}
+
+

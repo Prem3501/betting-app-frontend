@@ -16,7 +16,8 @@
   }
   
   #payment {
-    max-width: 100%; /* Ensure images are responsive */
+    max-width: 100%; 
+    
   }
   .img-fluid{
     height: 110%;

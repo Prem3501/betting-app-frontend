@@ -15,7 +15,7 @@ function Lastlink() {
             <Link to="/Kyc">KYC Policy</Link>
           </li>
           <li>
-            <Link to="/Terms">Terms & Conditions</Link>
+            <Link to="/Termsandconditions">Terms & Conditions</Link>
           </li>
           <li>
             <Link to="/ResponsibleGambling">Responsible Gambling</Link>

@@ -1,9 +1,9 @@
 .t-container{
-    width: 1000px;
+    width: 970px;
     height:auto;
-    background-color: white;
+    background-color:white;
     border-radius: 10px;
-    margin: -45pc 10px 0 22pc;
+    margin: -67pc 10px 0 22pc;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -23,3 +23,7 @@
     font-family: poppins;
 
 }
+.footer-container {
+    margin-bottom: 10pc;
+}
+

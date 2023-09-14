@@ -1,7 +1,40 @@
-/* Default styles for the MainScreen component */
-.mainscreen {
-    font-family: Arial, sans-serif;
-  }
+Default styles for the MainScreen component
+
+
+ #button {
+  background-color: #CF0A0A !important;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  margin: 10px 0 20px 100px;
+
+
+}
+
+
+#share-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:220px;
+  margin-top: -60px;
+  
+}
+
+#payment{
+  margin-left: 25pc;
+}
+
+
+
+
+
+
   
   /* Media query for screens smaller than 768px */
   @media (max-width: 768px) {

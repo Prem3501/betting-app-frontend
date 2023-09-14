@@ -6,6 +6,8 @@ import Navbar from "../component/Navbar";
 import Heroimagebanner from "../component/Heroimagebanner";
 import CenterContainer from "../component/CenterContainer";
 import Footerall from "../component/Footerall";
+import Rightsmallbanner from "../component/Rightsmallbanner";
+import './About.css';
 
 
 
@@ -13,12 +15,14 @@ import Footerall from "../component/Footerall";
 function AboutUs() {
   return (
     <div>
-      <Navbar />
-      <Heroimagebanner /> 
-      <CenterContainer />
-      <Sidebar />
+    <Navbar />
+    <Rightsmallbanner />
+    <Heroimagebanner />
+    <Sidebar />
+    
+    <CenterContainer />
+    <Footerall />
       
-      <Footerall />
     </div>
   );
 }

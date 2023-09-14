@@ -32,7 +32,7 @@ function Footer() {
       </Row>
       <br />
       <Row className="footer-row">
-        <Col md={4}>
+        <Col md={5}>
           <img
             id='payment'
             alt=""
