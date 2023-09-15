@@ -13,19 +13,19 @@ import './Mainscreen.css';
 function MainScreen() {
   return (
     <div className='mainscreen'>
-     <CollapsibleExample/>
+    <CollapsibleExample/>
      <br/>
-     <Centerbanner/>
+    <Centerbanner/>
      <br/>
-     <Buttonrow/>
+    <Buttonrow/>
      <br/>
-     <Twocards/>
+    <Twocards/>
      <br/>
-     <Lastbanner/>
+    <Lastbanner/>
      <br/>
-     <Review/>
+    <Review/>
      <br/>
-     <Footer/>
+    <Footer/>
     </div>
   );
 }
