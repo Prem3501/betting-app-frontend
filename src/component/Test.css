@@ -1,0 +1,177 @@
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1pc;
+  padding: 2px;
+  margin: -7px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 112px;
+  height: 82px;
+}
+
+.button:hover {
+  border-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+#container {
+
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1pc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: -68pc 0 0 22pc;
+  width: 970px;
+
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background: #000;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 2rem;
+}
+
+.linear::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background-image: conic-gradient(rgb(168, 239, 255, 1) 20deg, transparent 120deg);
+  border-radius: 5px;
+  animation-name: rotate;
+  animation-duration: 2s;
+  /* Set a finite duration */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* Make the animation infinite */
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.linear::after {
+  content: 'Linear';
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+#rowsss {
+  background-color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2pc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1pc;
+}
+
+#content {
+  border-radius: 50px;
+  background: #F6E9FF;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  margin-top: 10px;
+}
+
+#name {
+  
+  height: 36px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 2pc;
+}
+
+#vs {
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 15px;
+}
+
+#subname {
+  color: #C8C8C8;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 112%;
+  /* 16.8px */
+}
+
+#blog {
+  margin-top: 4pc;
+}
+
+#pink {
+  border-radius: 0px 10px 10px 0px;
+  width: 49px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #F6C5C8;
+  color: #AC3139;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#blue {
+  color: #10648F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px 0px 0px 10px;
+  background: #BBE1EE;
+  width: 49px;
+  height: 52px;
+  flex-shrink: 0;
+}
