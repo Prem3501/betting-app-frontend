@@ -9,7 +9,7 @@ import starImage from '../images/star.svg';
 import australianSportsImage from '../images/australiansports.svg';
 import esportsImage from '../images/esports.png';
 
-const ButtonRow = () => {
+const Row = () => {
   const imageSize = {
     width: '25px',
     height: '25px',
@@ -36,7 +36,7 @@ const ButtonRow = () => {
       // Define different content for each button here
       const content = [
         // Content for 'Inplay' button
-        <div key="inplay-content" className="container">
+        <div key="inplay-content" className="inplay-container">
 
         </div>,
 
@@ -347,4 +347,4 @@ const ButtonRow = () => {
   );
 };
 
-export default ButtonRow;
+export default Row;

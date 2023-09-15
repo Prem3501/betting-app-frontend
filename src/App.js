@@ -5,6 +5,8 @@ import ResponsibleGambling from "./pages/ResponsibleGambling";
 import Termsandcondition from "./pages/Termsandcondition";
 import KYC from "./pages/KYC";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Sports from "./pages/Sports";
+
 
 
 
@@ -17,6 +19,9 @@ function App() {
         <Route path="/KYC" element={<KYC />} />
         <Route path="/Termsandconditions" element={<Termsandcondition />} />
         <Route path="/About" element={<About />} />
+        <Route path="/Sports" element={<Sports />} />
+      
+        
       
 
         
