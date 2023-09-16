@@ -3,12 +3,9 @@ import MainScreen from "./pages/Mainscreen";
 import About from "./pages/About";
 import ResponsibleGambling from "./pages/ResponsibleGambling";
 import Termsandcondition from "./pages/Termsandcondition";
-import KYC from "./pages/KYC";
+import KYC from "./pages/kyc";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sports from "./pages/Sports";
-
-
-
 
 function App() {
   return (
@@ -20,12 +17,6 @@ function App() {
         <Route path="/Termsandconditions" element={<Termsandcondition />} />
         <Route path="/About" element={<About />} />
         <Route path="/Sports" element={<Sports />} />
-      
-        
-      
-
-        
-        
       </Routes>
     </Router>
   );
