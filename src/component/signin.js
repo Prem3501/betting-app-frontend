@@ -6,7 +6,7 @@ import Icons from "./icons";
 import logo from "../images/5_1.png";
 import subpayment from "../images/subpayment.png";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Import useHistory
 
 const SignInPopup = ({ onClose }) => {
   const [showRegister, setShowRegister] = useState(false);
@@ -16,7 +16,7 @@ const SignInPopup = ({ onClose }) => {
   });
 
   const [errorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // Use useHistory
 
   const toggleRegister = () => {
     setShowRegister(!showRegister);
@@ -44,7 +44,7 @@ const SignInPopup = ({ onClose }) => {
         userDetails
       );
       if (data.status) {
-        navigate("/about");
+        navigate("/about"); // Use history.push to navigate
       }
     } catch (error) {
       console.log("error signing in");
