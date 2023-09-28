@@ -1,46 +1,43 @@
-#logoletter{
-    color: #FFAFAF;
-    font-size:10px;
-    font-family: poppins;
-    font-weight: bold ;
+#logoletter {
+  color: #ffafaf;
+  font-size: 10px;
+  font-family: poppins;
+  font-weight: bold;
 }
-#brand{
-   color:white;
-    font-family: poppins;
-    font-weight: bold ;
-    font-size: 20px;
+#brand {
+  color: white;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 20px;
 }
 .custom-navbar-brand {
-    display: flex;
-    align-items: center; /* Vertically align the content */
-    padding: 0; /* Remove padding to align the image and text horizontally */
-  }
-  
-  .custom-navbar-brand img {
-    margin-right: 20px; /* Add spacing between the image and text */
-  }
-  
-  
-  
-#custom-nav-link{
-    background-color:#CF0A0A;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
-    margin: 0 30px 0px 180px; /* Adjust the second value to control horizontal spacing */
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-items: center; /* Vertically align the content */
+  padding: 0; /* Remove padding to align the image and text horizontally */
+}
+
+.custom-navbar-brand img {
+  margin-right: 20px; /* Add spacing between the image and text */
+}
+
+#custom-nav-link {
+  background-color: #cf0a0a;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin: 1pc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #navbar {
-    background-color: #CF0A0A;
+  background-color: #cf0a0a;
 }
-#nav-link{
-    background-color:#CF0A0A;
-    color: white;
-    border-radius: 5px;
-    font-weight: bolder;
-    margin: 0 20px; /* Adjust the second value to control horizontal spacing */
-    text-align: center;
+#nav-link {
+  background-color: #cf0a0a;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  margin: 0 20px; /* Adjust the second value to control horizontal spacing */
+  text-align: center;
 }

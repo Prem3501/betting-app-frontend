@@ -1,36 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,700&display=swap");
 
-
- #button {
-    background-color: #CF0A0A !important;
-    border-radius: 5px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding-right: 23px;
-    margin: 0 20px 20px 140px;
-  
-
-  }
-  #buttonbox button{
-    flex: 1 1 ;
-    margin: 0 30px;
-  }
-  
-  #share-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left:220px;
-    margin-top: -60px;
-    
-  }
-  
-  .row {
-    margin-bottom: 30px; /* Adjust spacing between rows */
-  }
-  
-  
-  
+#buttonrowbtn {
+  background-color: #cf0a0a !important;
+  border-radius: 5px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 30px;
+  gap: 10px;
+  padding: 10px 10px 10px 10px;
+}
+#buttonrow {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0%;
+  padding-top: 2pc;
+  margin-left: 7.5pc;
+  font-family: Poppins;
+  color: #000;
+  padding: 10px 10px 10px 10px;
+}

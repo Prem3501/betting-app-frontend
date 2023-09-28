@@ -1,15 +1,14 @@
-import React from 'react';
-import './review.css';
-import App1 from './cardsmarquee';
-
+import React from "react";
+import "./review.css";
+import Swipercard from "./cardsmarquee";
 
 function Review() {
   return (
     <>
-           <h3 id='h3'>REVIEW</h3>
-    <div className='container' id="contain">
-       <App1></App1>
-    </div>
+      <h3 id="reviewtitle">REVIEW</h3>
+      <div className="container-fluid">
+        <Swipercard />
+      </div>
     </>
   );
 }

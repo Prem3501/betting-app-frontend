@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // Import the Link component
+import React from "react";
+import { Link } from "react-router-dom"; // Import the Link component
 
-import './lastlink.css'; 
+import "./lastlink.css";
 
 function Lastlink() {
   return (
-    <div className='lastlinks'>
+    <div className="lastlinks">
       <nav>
         <ul>
-          <li className="about-list"> 
+          <li className="about-list">
             <Link to="/About">About Us</Link>
           </li>
           <li>

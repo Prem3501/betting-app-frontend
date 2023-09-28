@@ -1,48 +1,45 @@
 /* Add your existing styles here */
 
 .footer-row {
-    margin-bottom: 20px; /* Add margin to separate rows */
-  }
-  
-  #footercontainer {
-    background-color: #000000; /* Add your desired background color */
-    color: #fff; /* Add text color */
-    padding: 20px; /* Add padding for content within the container */
-    border-radius: 10px;
-  }
-  
-  #capture {
-    max-width: 100%; /* Ensure images are responsive */
-  }
-  
-  #payment {
-    max-width: 100%; 
-    
-  }
-  .img-fluid{
-    height: 110%;
-    width: 110%;
-    margin-top:-50px;
-    margin-left: 24pc;
-  }
-  .img-fluid1{
-    width: 100%;
-    height:50%;
-  }
-  .head-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:rgb(255, 255, 255);
-
+  margin-bottom: 20px; /* Add margin to separate rows */
 }
 
-  .btn-danger {
-    background-color: #d9534f; /* Change button color as needed */
-  }
-  
-  .lastline {
-    text-align: center; /* Center align the last link */
-  }
-  
+#footer-main-container {
+  background-color: #000000; /* Add your desired background color */
+  color: #fff; /* Add text color */
+  padding: 20px; /* Add padding for content within the container */
+  border-radius: 10px;
+}
+
+#capture {
+  max-width: 100%; /* Ensure images are responsive */
+}
+
+#payment {
+  max-width: 100%;
+}
+.img-fluid {
+  height: 110%;
+  width: 110%;
+  margin-top: -50px;
+  margin-left: 25pc;
+}
+.img-fluid1 {
+  width: 100%;
+  height: 50%;
+}
+.head-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+#more-btn {
+  background-color: #ff0800; /* Change button color as needed */
+}
+
+.lastline {
+  text-align: center; /* Center align the last link */
+}

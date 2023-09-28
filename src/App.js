@@ -19,9 +19,6 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Sports" element={<Sports />} />
         <Route path="/Userprofile" element={<Userprofile />} />
-
-       
-
       </Routes>
     </Router>
   );

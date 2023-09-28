@@ -5,21 +5,20 @@ import fiveImage from "../images/5.png";
 import Icons from "./icons";
 import logo from "../images/5_1.png";
 import subpayment from "../images/subpayment.png";
-import axios from "axios";
-import { useNavigate } from "react-router-dom"; // Import useHistory
 
 const SignInPopup = ({ onClose }) => {
   const [showRegister, setShowRegister] = useState(false);
-  const [userDetails, setUserDetails] = useState({
-    username: "",
-    password: "",
-  });
-
+  const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate(); // Use useHistory
 
   const toggleRegister = () => {
     setShowRegister(!showRegister);
+  };
+
+  const handlePasswordChange = (e) => {
+    const newPassword = e.target.value;
+    setPassword(newPassword);
+    validatePassword(newPassword);
   };
 
   const validatePassword = (password) => {
@@ -33,34 +32,6 @@ const SignInPopup = ({ onClose }) => {
     } else {
       setErrorMessage("");
     }
-  };
-
-  const handleSignIn = async (e) => {
-    e.preventDefault();
-    console.log(userDetails);
-    try {
-      const { data } = await axios.post(
-        "http://localhost:5000/auth/login",
-        userDetails
-      );
-      if (data.status) {
-        navigate("/about"); // Use history.push to navigate
-      }
-    } catch (error) {
-      console.log("error signing in");
-      console.log(error);
-    }
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    if (name === "password") {
-      validatePassword(value);
-    }
-    setUserDetails((prevDetails) => ({
-      ...prevDetails,
-      [name]: value,
-    }));
   };
 
   return (
@@ -93,41 +64,43 @@ const SignInPopup = ({ onClose }) => {
               {showRegister ? (
                 <Register onClose={onClose} />
               ) : (
-                <form>
-                  <label>
+                <form id="rs-form">
+                  <label id="rs-label">
                     <input
                       type="text"
                       name="username"
                       placeholder="Enter your Name"
                       className="responsive-input"
-                      value={userDetails.username}
-                      onChange={handleChange}
                     />
                   </label>
-                  <label>
+                  <label id="rs-label">
                     <input
                       type="password"
                       name="password"
                       placeholder="Enter your Password"
-                      value={userDetails.password}
-                      onChange={handleChange}
+                      value={password}
+                      onChange={handlePasswordChange}
                       className="responsive-input"
                     />
                   </label>
                   <div className="error-message">{errorMessage}</div>
-                  <label>
-                    <input type="checkbox" name="keepLoggedIn" />
+                  <label id="rs-label">
+                    <input
+                      type="checkbox"
+                      name="keepLoggedIn"
+                      id="rs-checkbox"
+                    />
                     Keep me signed in
                   </label>
                   <button
                     type="submit"
                     className=" responsive-input" // Add this class
                     disabled={!!errorMessage} // Disable the button if there's an error message
-                    onClick={handleSignIn}
+                    id="rs-button"
                   >
                     Sign In
                   </button>
-                  <p>
+                  <p className="para1">
                     Don't have an account?{" "}
                     <a href="#" id="register" onClick={toggleRegister}>
                       Register

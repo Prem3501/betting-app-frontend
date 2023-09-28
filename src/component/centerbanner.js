@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './centerbanner.css';
-import sixthimage from '../images/6.png';
-import sixpointone from '../images/6.1.png';
+import React, { useState } from "react";
+import "./centerbanner.css";
+import sixthimage from "../images/6.png";
+import sixpointone from "../images/6.1.png";
 
 function Centerbanner() {
   const [showSports, setShowSports] = useState(false);
@@ -18,30 +18,69 @@ function Centerbanner() {
   };
 
   return (
-    <div className='container' id="container">
-      <div className='row'>
-        <div className={`col-md-6 ${showGambling ? '' : 'd-none'}`} id='gambling'>
+    <div className="container" id="cbcontainer">
+      <div className="row">
+        <div
+          className={`col-md-6 ${showGambling ? "" : "d-none"}`}
+          id="gambling"
+        >
           <h3 id="h31">PLAY BIG </h3>
-          <h3 id="h3">BIG WINNER! </h3>
-          <br/><samp></samp>
-          <div id="buttonbox"> 
-            <button type="button" className ='btn btn-danger' id="button" onClick={handleSportsClick}>Sports</button>
-            <button type="button"  className ='btn btn-danger' id="button" onClick={handleGamblingClick}>Casino</button>
+          <h3 id="h3-bw">BIG WINNER! </h3>
+          <br />
+          <div id="buttonbox">
+            <button
+              type="button"
+              className="btn btn-danger"
+              id="cb-button"
+              onClick={handleSportsClick}
+            >
+              Sports
+            </button>
+            <button
+              type="button"
+              className="btn btn-danger"
+              id="cb-button"
+              onClick={handleGamblingClick}
+            >
+              Casino
+            </button>
           </div>
         </div>
-        <div className={`col-md-6 d-flex justify-content-center align-items-center ${showGambling ? '' : 'd-none'}`}>
+        <div
+          className={`col-md-6 d-flex justify-content-center align-items-center ${
+            showGambling ? "" : "d-none"
+          }`}
+        >
           <img src={sixthimage} alt="Image Description" className="img-flid" />
         </div>
-        <div className={`col-md-6 ${showSports ? '' : 'd-none'}`} id='sports'>
+        <div className={`col-md-6 ${showSports ? "" : "d-none"}`} id="sports">
           <h3 id="h32">100% BONUS</h3>
-          <h3 id="h3">BIG WINNER! </h3>
-          <br/>
-          <div id="buttonbox"> 
-            <button type="button"  className ='btn btn-danger'  id="button" onClick={handleSportsClick}>Sports</button>
-            <button type="button" className ='btn btn-danger' id="button" onClick={handleGamblingClick}>Casino</button>
+          <h3 id="h3-bw">BIG WINNER! </h3>
+          <br />
+          <div id="buttonbox">
+            <button
+              type="button"
+              className="btn btn-danger"
+              id="cb-button"
+              onClick={handleSportsClick}
+            >
+              Sports
+            </button>
+            <button
+              type="button"
+              className="btn btn-danger"
+              id="cb-button"
+              onClick={handleGamblingClick}
+            >
+              Casino
+            </button>
           </div>
         </div>
-        <div className={`col-md-6 d-flex justify-content-center align-items-center ${showSports ? '' : 'd-none'}`}>
+        <div
+          className={`col-md-6 d-flex justify-content-center align-items-center ${
+            showSports ? "" : "d-none"
+          }`}
+        >
           <img src={sixpointone} alt="Image Description" className="img-flid" />
         </div>
       </div>

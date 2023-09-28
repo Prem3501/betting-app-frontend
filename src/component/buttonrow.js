@@ -1,31 +1,78 @@
-import React from 'react';
-import './buttonrow.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleCheck, faShare, faFilePen, faWallet, faTrophy } from '@fortawesome/free-solid-svg-icons';
-
-const buttonsData = [
-  { text: 'Register', icon: faFilePen },
-  { text: 'Verify', icon: faCircleCheck },
-  { text: 'Deposit', icon: faWallet },
-  { text: 'Win', icon: faTrophy },
-];
+import React from "react";
+import "./buttonrow.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCircleCheck,
+  faShare,
+  faFilePen,
+  faWallet,
+  faTrophy,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Buttonrow() {
   return (
-    <div className='row justify-content-center p-1'>
-      {buttonsData.map((button, index) => (
-        <div className='col-md-3 text-center' key={index}>
-          <button type="button" className='btn btn-danger' id='button'>
-            <FontAwesomeIcon icon={button.icon} size="2xl" style={{ color: "#ffffff", padding: "2px" }} />
-            {button.text}
-          </button>
-          {index < buttonsData.length - 1 && (
-            <div className='col-12' id='share-icon'>
-              <FontAwesomeIcon icon={faShare} size="2xl" style={{ color: "#ffffff" }} />
-            </div>
-          )}
-        </div>
-      ))}
+    <div className="row" id="buttonrow">
+      <div className="col-md-2">
+        <button type="button" className="btn btn-danger" id="buttonrowbtn">
+          <FontAwesomeIcon
+            icon={faFilePen}
+            size="lg"
+            style={{ color: "#ffffff", padding: "2px" }}
+          />
+          Register
+        </button>
+      </div>
+      <div className="col-md-1 mx-2 py-2">
+        <FontAwesomeIcon
+          icon={faShare}
+          className="fa-3x"
+          style={{ color: "#ffffff" }}
+        />
+      </div>
+      <div className="col-md-2">
+        <button type="button" className="btn btn-danger" id="buttonrowbtn">
+          <FontAwesomeIcon
+            icon={faCircleCheck}
+            size="lg"
+            style={{ color: "#ffffff", padding: "2px" }}
+          />
+          Verify
+        </button>
+      </div>
+      <div className="col-md-1">
+        <FontAwesomeIcon
+          icon={faShare}
+          className="fa-3x"
+          style={{ color: "#ffffff" }}
+        />
+      </div>
+      <div className="col-md-2">
+        <button type="button" className="btn btn-danger" id="buttonrowbtn">
+          <FontAwesomeIcon
+            icon={faWallet}
+            size="lg"
+            style={{ color: "#ffffff", padding: "2px" }}
+          />
+          Deposit
+        </button>
+      </div>
+      <div className="col-md-1">
+        <FontAwesomeIcon
+          icon={faShare}
+          className="fa-3x"
+          style={{ color: "#ffffff" }}
+        />
+      </div>
+      <div className="col-md-2">
+        <button type="button" className="btn btn-danger" id="buttonrowbtn">
+          <FontAwesomeIcon
+            icon={faTrophy}
+            size="lg"
+            style={{ color: "#ffffff", padding: "2px" }}
+          />
+          Win
+        </button>
+      </div>
     </div>
   );
 }

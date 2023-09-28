@@ -3,20 +3,18 @@ import "./signin.css";
 import fiveImage from "../images/5.png";
 import logo from "../images/5_1.png";
 import subpayment from "../images/subpayment.png";
-import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 const Register = ({ onClose }) => {
   const [formData, setFormData] = useState({
     username: "",
     password: "",
-    phonenumber: "",
+    phone: "",
+    keepLoggedIn: false,
   });
   const [errors, setErrors] = useState({});
   const [alertMessage, setAlertMessage] = useState("");
   const [registrationSuccess, setRegistrationSuccess] = useState(false); // New state for registration success
 
-  const navigate = useNavigate();
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
     const inputValue = type === "checkbox" ? checked : value;
@@ -26,7 +24,7 @@ const Register = ({ onClose }) => {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     // Validation logic
@@ -52,20 +50,8 @@ const Register = ({ onClose }) => {
 
     if (Object.keys(validationErrors).length === 0) {
       // Form is valid, submit or perform other actions here
-      try {
-        const { data } = await axios.post(
-          "http://localhost:5000/auth/register",
-          formData
-        );
-        if (data.status) {
-          setAlertMessage("Register successfully");
-          setRegistrationSuccess(true);
-        }
-      } catch (error) {
-        console.log("error occured while registering user");
-      }
-
-      // Set registration success to true
+      setAlertMessage("Register successfully");
+      setRegistrationSuccess(true); // Set registration success to true
       setErrors({});
       console.log("Form is valid. Submitting...");
     } else {
@@ -106,8 +92,8 @@ const Register = ({ onClose }) => {
               {registrationSuccess ? (
                 <div className="alert alert-success">{alertMessage}</div>
               ) : (
-                <form onSubmit={handleSubmit}>
-                  <label>
+                <form onSubmit={handleSubmit} id="rs-form">
+                  <label id="rs-label">
                     <input
                       type="text"
                       name="username"
@@ -120,7 +106,7 @@ const Register = ({ onClose }) => {
                       <span className="error">{errors.username}</span>
                     )}
                   </label>
-                  <label>
+                  <label id="rs-label">
                     <input
                       type="password"
                       name="password"
@@ -133,19 +119,30 @@ const Register = ({ onClose }) => {
                       <span className="error">{errors.password}</span>
                     )}
                   </label>
-                  <label>
+                  <label id="rs-label">
                     <input
                       type="tel"
-                      name="phonenumber"
+                      name="phone"
                       placeholder="Enter your Whatsapp Number"
-                      value={formData.phonenumber}
+                      value={formData.phone}
                       onChange={handleInputChange}
                       className="responsive-input" // Add this class
                     />
                     {/* Add validation and error message for phone number if needed */}
                   </label>
-
-                  <button type="submit">Register</button>
+                  <label id="rs-label">
+                    <input
+                      type="checkbox"
+                      name="keepLoggedIn"
+                      checked={formData.keepLoggedIn}
+                      onChange={handleInputChange}
+                      id="rs-checkbox"
+                    />
+                    Keep me signed in
+                  </label>
+                  <button type="submit" id="rs-button">
+                    Register
+                  </button>
                   {alertMessage && <div className="alert">{alertMessage}</div>}
                 </form>
               )}
