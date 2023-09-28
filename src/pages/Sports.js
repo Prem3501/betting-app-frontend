@@ -8,22 +8,18 @@ import Test from "../component/Test";
 
 import Footerall from "../component/Footerall";
 
-
-
-function Sports(){
-    return(
-        <div>
-        
-
-        <Navbarall />
-        <Rightsmallbanner />
-        <Heroimagebanner />
-        <Sidebar />
-        <Rightlongbanner /> 
-        <Test />
-        <Footerall />
-        </div>
-    )
+function Sports() {
+  return (
+    <div>
+      <Navbarall /> <br /> <br /> <br /> <br /> <br />
+      <Rightsmallbanner />
+      <Heroimagebanner />
+      <Sidebar />
+      <Rightlongbanner />
+      <Test />
+      <Footerall />
+    </div>
+  );
 }
 
 export default Sports;
