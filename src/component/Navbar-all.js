@@ -30,8 +30,8 @@ const Navbar = () => {
             src={logoImage}
             alt="Logo"
             className="logo"
-            width="70px"
-            height="70px"
+            width="50px"
+            height="50px"
           />
           Betzhub
         </Link>
@@ -69,18 +69,18 @@ const Navbar = () => {
 
           <div className="navbar-nav" id="icon-container">
             <button className="icon-button">
-              <BiWalletAlt size={35} />
+              <BiWalletAlt size={30} />
             </button>
             <button className="icon-button">
-              <CiMoneyBill size={35} />
+              <CiMoneyBill size={30} />
             </button>
             <button className="icon-button">
-              <IoSettingsOutline size={35} />
+              <IoSettingsOutline size={30} />
             </button>
             <div className="avatar-container">
               <AiOutlineUser
                 className="avatar-icon"
-                size={35}
+                size={30}
                 onClick={toggleDropdown}
               />
               <div

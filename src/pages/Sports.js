@@ -1,6 +1,6 @@
 import React from "react";
 import Navbarall from "../component/Navbar-all";
-import Sidebar from "../component/sidebar";
+import Sidebarj from "../component/Sidebar-jami";
 import Heroimagebanner from "../component/Heroimagebanner";
 import Rightsmallbanner from "../component/Rightsmallbanner";
 import Rightlongbanner from "../component/Rightlongbanner";
@@ -12,6 +12,8 @@ function Sports() {
     <div>
       <Navbarall />
       <Heroimagebanner />
+      <Sidebarj />
+      <Rightsmallbanner />
     </div>
   );
 }
