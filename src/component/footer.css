@@ -17,6 +17,10 @@
 
 #payment {
   max-width: 100%;
+  margin-left: 25pc;
+}
+#g-pay {
+  max-width: 100%;
 }
 
 .head-text {

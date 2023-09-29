@@ -6,7 +6,7 @@ import "./Footerall.css";
 
 function Footer() {
   return (
-    <div className="footer-container ">
+    <div className="footer-container" id="footer-all">
       <div className="row mt-3">
         <div className="col-md-4">
           <div className="group-child53" />

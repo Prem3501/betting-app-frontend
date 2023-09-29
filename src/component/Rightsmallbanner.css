@@ -21,20 +21,18 @@
   margin-left: -13px;
 }
 
-#name {
-  color: #000;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin: 6px;
-}
-
 #topimage {
   width: 270px;
   height: 210px;
   border-radius: 10px;
+}
+
+.dummy-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  text-align: center;
 }
 @media (max-width: 400px) {
   #rightcomponenttop {

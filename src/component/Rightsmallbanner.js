@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import bet from '../images/rightbanner.png';
-import recent from '../images/rightbanner.png';
-import promotion from '../images/rightbanner.png';
-import './Rightsmallbanner.css';
+import React, { useState } from "react";
+import bet from "../images/rightbanner.png";
+import recent from "../images/rightbanner.png";
+import promotion from "../images/rightbanner.png";
+import "./Rightsmallbanner.css";
 
 const ImageSwitcher = () => {
   // Initialize state to track the currently selected image
@@ -17,15 +17,28 @@ const ImageSwitcher = () => {
   };
 
   return (
-    <div className='container' id="rightcomponenttop"   style={{float:"right"}}>
-
-    
-  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-  < span onClick={() => handleImageClick(0)} id="name">Betlist  |</span>
-  <span onClick={() => handleImageClick(1)} id="name"> Recent Activity |</span>
-  <span onClick={() => handleImageClick(2)} id="name">Promotion</span>
-</div>
-      <img src={selectedImage} alt="Selected" id='topimage' />
+    <div
+      className="container"
+      id="rightcomponenttop"
+      style={{ float: "right" }}
+    >
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Basic mixed styles example"
+      >
+        <span onClick={() => handleImageClick(0)} className="dummy-text">
+          Betlist |
+        </span>
+        <span onClick={() => handleImageClick(1)} className="dummy-text">
+          {" "}
+          Recent Activity |
+        </span>
+        <span onClick={() => handleImageClick(2)} className="dummy-text">
+          Promotion
+        </span>
+      </div>
+      <img src={selectedImage} alt="Selected" id="topimage" />
     </div>
   );
 };

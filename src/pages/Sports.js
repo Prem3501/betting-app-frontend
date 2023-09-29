@@ -11,10 +11,13 @@ function Sports() {
   return (
     <div>
       <Navbarall />
-      <Heroimagebanner />
       <Sidebarj />
+      <Heroimagebanner />
       <Rightsmallbanner />
+
+      <Test />
       <Rightlongbanner />
+      <Footerall />
     </div>
   );
 }

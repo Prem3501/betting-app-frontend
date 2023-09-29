@@ -3,7 +3,7 @@ import MainScreen from "./pages/Mainscreen";
 import About from "./pages/About";
 import ResponsibleGambling from "./pages/ResponsibleGambling";
 import Termsandcondition from "./pages/Termsandcondition";
-import KYC from "./pages/kyc";
+import KYC from "./pages/KYC";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sports from "./pages/Sports";
 import Userprofile from "./pages/Userprofile";

@@ -73,11 +73,7 @@ function Footer() {
         <Col md={4}>
           <div className="head-text">
             <h5> Accepted Modes of Payments </h5>
-            <img
-              alt=""
-              src={payment}
-              className="img-fluid1" // Use Bootstrap class to make the image responsive
-            />
+            <img alt="" src={payment} className="img-fluid" id="g-pay" />
           </div>
 
           <div className="text-center">
