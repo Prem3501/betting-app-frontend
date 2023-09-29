@@ -110,3 +110,10 @@
 }
 
 /* Additional styles for responsiveness can be added as needed */
+@media (max-width: 920px) {
+  #icon-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+}

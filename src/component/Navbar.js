@@ -7,6 +7,8 @@ import SignInPopup from "./signin";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Register from "./register";
 import logo from "../images/5_1.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function CollapsibleExample() {
   const [showSignInPopup, setShowSignInPopup] = useState(false);

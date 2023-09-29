@@ -1,4 +1,5 @@
-.image-banner{
-   height:100%;
-   margin-right:120px;
+@media (max-width: 900px) {
+  #banner-img {
+    display: none;
+  }
 }
