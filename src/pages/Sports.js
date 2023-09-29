@@ -14,6 +14,7 @@ function Sports() {
       <Heroimagebanner />
       <Sidebarj />
       <Rightsmallbanner />
+      <Rightlongbanner />
     </div>
   );
 }
