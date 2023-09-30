@@ -67,7 +67,7 @@ const Sportstest = () => {
                   <button
                     type="button"
                     class="btn btn-dark position-relative"
-                    style={{ marginTop: "3pc" }}
+                    style={{ marginTop: "4pc" }}
                   >
                     M{" "}
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
@@ -391,9 +391,9 @@ const Sportstest = () => {
                   <div class="box linear"></div>
                 </div>
                 <div className="col-md-7">
-                  <h3>
-                    Ipswich Town
-                    <span id="vs">vs</span>
+                  <h3 id="name">
+                    {" "}
+                    Ipswich Town U21 <span id="vs">vs</span>
                     <br />
                     Birmingham U21
                   </h3>
