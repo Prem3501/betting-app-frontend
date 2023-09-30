@@ -1,8 +1,8 @@
 /* Default styles for all screen sizes (including desktop and mobile) */
 #footer-all {
   width: 800px;
-  height: 725px;
-  margin: 1pc 0 0 20pc;
+  height: auto;
+  margin: 0 0 0 20pc;
   background-color: white;
   border-radius: 10px;
 }
