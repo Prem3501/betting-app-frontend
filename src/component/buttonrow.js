@@ -14,15 +14,11 @@ function Buttonrow() {
     <div className="row" id="buttonrow">
       <div className="col-md-2">
         <button type="button" className="btn btn-danger" id="buttonrowbtn">
-          <FontAwesomeIcon
-            icon={faFilePen}
-            size="lg"
-            style={{ color: "#ffffff", padding: "2px" }}
-          />
+          <FontAwesomeIcon icon={faFilePen} size="lg" />
           Register
         </button>
       </div>
-      <div className="col-md-1 mx-2 py-2">
+      <div className="col-md-1 mx-2" style={{ paddingLeft: "3%" }}>
         <FontAwesomeIcon
           icon={faShare}
           className="fa-3x"
@@ -39,7 +35,7 @@ function Buttonrow() {
           Verify
         </button>
       </div>
-      <div className="col-md-1">
+      <div className="col-md-1 mx-2" style={{ paddingLeft: "3%" }}>
         <FontAwesomeIcon
           icon={faShare}
           className="fa-3x"
@@ -56,7 +52,7 @@ function Buttonrow() {
           Deposit
         </button>
       </div>
-      <div className="col-md-1">
+      <div className="col-md-1 mx-2" style={{ paddingLeft: "3%" }}>
         <FontAwesomeIcon
           icon={faShare}
           className="fa-3x"
