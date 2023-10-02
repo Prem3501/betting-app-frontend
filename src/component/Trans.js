@@ -15,7 +15,7 @@ const Page4 = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="Trans">
       <h2 className="transaction">Transaction History</h2>
       <div className="date-picker">
         <label htmlFor="startDate">From Date:</label>
@@ -34,14 +34,16 @@ const Page4 = () => {
           className="date-input"
           dateFormat="yyyy-MM-dd"
         />
+        <div className="search-bar1">
+          <input type="text" placeholder="Search" className="search-input1" />
+          {/* Add your search icon here */}
+        </div>
       </div>
-      <div className="search-bar1">
-        <input type="text" placeholder="Search" className="search-input1" />
-        {/* Add your search icon here */}
-      </div>
-      <div className="row">
-        <div className="entry-control">
+
+      <div className="row" id="entry-control-trans">
+        <div className="entry-control ml-3 px-3">
           <label htmlFor="entriesDropdown">Show </label>
+          <span className="entries-label">Entries</span>
           <select
             id="entriesDropdown"
             className="custom-dropdown"
@@ -50,16 +52,8 @@ const Page4 = () => {
           >
             {/* Options for the dropdown */}
           </select>
-          <span className="entries-label">Entries</span>
-        </div>
-        <div className="search-bar">
-          <input type="text" placeholder="Search" className="search-input" />
-          {/* Add your search icon here */}
-          <i className="fa fa-search search-icon" aria-hidden="true"></i>
         </div>
       </div>
-      {/* Add your search icon here */}
-      {/* Add download links for CSV, Excel, and PDF as buttons */}
       <div className="file-download">
         <a href="/path/to/csv-file.csv" download className="download-button">
           {" "}
@@ -74,32 +68,34 @@ const Page4 = () => {
           PDF
         </a>
       </div>
+      {/* Add your search icon here */}
+      {/* Add download links for CSV, Excel, and PDF as buttons */}
 
       <div className="button-row">
         {/* Six buttons */}
         <button className="page-button">
           Date <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
         <button className="page-button">
           Transaction ID <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
         <button className="page-button">
           Status <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
         <button className="page-button">
           Deposit/Withdraw <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
         <button className="page-button">
           Amount <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
         <button className="page-button">
           Remark <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-12px" }}></i>
         </button>
       </div>
       <div className="horizontal-line"></div>
@@ -107,7 +103,7 @@ const Page4 = () => {
       <div className="horizontal-line"></div>
       <div className="pagination">
         <div className="entries-info">0 to 0 of 0 entries</div>
-        <div className="page-navigation">
+        <div className="page-navigation mb-4">
           <button className="prev-button">Previous</button>
           <button className="next-button">Next</button>
         </div>

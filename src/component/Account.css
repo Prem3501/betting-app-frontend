@@ -41,11 +41,6 @@
   align-items: center; /* Vertically center content */
 }
 
-#page-button i {
-  font-size: 18px; /* Adjust the icon size as needed */
-  margin-left: 5px; /* Add some spacing between text and icons */
-}
-
 .no-data {
   text-align: center;
 

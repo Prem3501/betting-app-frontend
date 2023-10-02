@@ -38,27 +38,27 @@ const Account = () => {
         {/* Six buttons */}
         <button className="page-button" id="page-button">
           Date <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down"></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
         <button className="page-button" id="page-button">
           Type <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down" style={{ marginLeft: "-11px" }}></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
         <button className="page-button" id="page-button">
           Description <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down" style={{ marginLeft: "-11px" }}></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
         <button className="page-button" id="page-button">
           Dr <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down" style={{ marginLeft: "-11px" }}></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
         <button className="page-button" id="page-button">
           Cr <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down" style={{ marginLeft: "-11px" }}></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
         <button className="page-button" id="page-button">
           Balance <i className="fas fa-sort-up"></i>
-          <i className="fas fa-sort-down" style={{ marginLeft: "-11px" }}></i>
+          <i className="fas fa-sort-down" style={{ marginLeft: "-17px" }}></i>
         </button>
       </div>
       <div className="horizontal-line"></div>
