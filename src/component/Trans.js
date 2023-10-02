@@ -16,7 +16,7 @@ const Page4 = () => {
 
   return (
     <div className="container" id="Trans">
-      <h2 className="transaction">Transaction History</h2>
+      <h3 className="transaction">Transaction History</h3>
       <div className="date-picker">
         <label htmlFor="startDate">From Date:</label>
         <DatePicker

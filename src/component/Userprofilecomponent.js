@@ -12,7 +12,7 @@ const UserProfileComponent = () => {
   return (
     <div className="container" style={{ padding: "2pc" }}>
       <header className="text-center">
-        <h1 id="title">User Profile</h1>
+        <h3 id="title">User Profile</h3>
       </header>
       <div className="row">
         <div className="col-md-3" id="userdetails">

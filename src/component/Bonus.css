@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  color: #ac3139;
+  text-decoration: underline;
 }
 .horizontal-line {
   border: 1px solid transparent;

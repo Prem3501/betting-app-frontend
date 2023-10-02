@@ -54,7 +54,7 @@ class Withdraw extends React.Component {
     return (
       <div className="container">
         <header className="text-center">
-          <h1 id="titlewithdraw">Withdraw</h1>
+          <h3 id="titlewithdraw">Withdraw</h3>
         </header>
         <br />
         <br />

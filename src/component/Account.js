@@ -12,7 +12,7 @@ const Account = () => {
 
   return (
     <div className="container" id="Account-container">
-      <h2 className="account">Account Statement</h2>
+      <h3 className="account">Account Statement</h3>
       <div className="row">
         <div className="entry-control" id="Show">
           <label htmlFor="entriesDropdown">Show </label>

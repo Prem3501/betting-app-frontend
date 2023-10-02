@@ -5,7 +5,7 @@ function Bonus() {
   return (
     <div>
       <div className="Bonus " id="Bonus">
-        <h1 className="b-head  d-flex"> Bonus List </h1>
+        <h3 className="b-head  d-flex"> Bonus List </h3>
         <div className="line mb-3">
           <div className="horizontal-line"></div>
           <div className="no-data">No Wager Bonus is Available this Time </div>
