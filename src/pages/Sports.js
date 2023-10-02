@@ -15,7 +15,7 @@ function Sports() {
       <Heroimagebanner />
       <Rightsmallbanner />
       <Test />
-      <Rightlongbanner />
+      <Rightlongbanner /> <br />
       <Footerall />
     </div>
   );

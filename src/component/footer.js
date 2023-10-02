@@ -44,7 +44,7 @@ function Footer() {
         </Col>
       </Row>
       <br />
-      <Row className="footer-row">
+      <Row className="footer-row ">
         <Col md={4}>
           betzhub.com is Asia’s one of the biggest gaming platforms with over
           350 games and sports available.

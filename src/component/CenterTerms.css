@@ -1,25 +1,23 @@
-.t-container{
-    width: 1000px;
-    height:auto;
-    background-color: white;
-    border-radius: 10px;
-    margin: -45pc 10px 0 22pc;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-
+.t-container {
+  width: 56%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 1pc 2px 0 20pc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
-.T-head{
-    font-weight: 400;
-    font-family: poppins;
-
+.T-head {
+  font-weight: 400;
+  font-family: poppins;
 }
 
-.main-text-terms{
-    display: flex;
-    flex-direction: column;
-    font-size: larger;
-    font-family: poppins;
-
+.main-text-terms {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  font-family: poppins;
 }

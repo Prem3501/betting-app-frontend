@@ -1,17 +1,30 @@
-.res-container{
-    width: 950px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding:10px;
-    margin-left: 22pc;
-    margin-top:-45pc;
-    border-radius: 10px;
-    line-height: normal;
-    letter-spacing: normal;
-    font-family: poppins;
-    font-weight:normal;
+.response {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-left: 20pc;
+  margin-top: 10px;
+  border-radius: 10px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: poppins;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.response h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.response p {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-wrap: wrap;
+  line-height: normal;
 }

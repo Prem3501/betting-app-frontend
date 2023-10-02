@@ -1,8 +1,88 @@
 /* Default styles for all screen sizes (including desktop and mobile) */
 #footer-all {
   width: 800px;
-  height: auto;
+  height: 700px;
   margin: 0 0 0 20pc;
+  padding: 2px;
   background-color: white;
   border-radius: 10px;
+}
+
+/* Default styles for all screen sizes (including desktop and mobile) */
+.footer {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  color: #333;
+  border-radius: 10px;
+  min-width: none;
+  max-width: fit-content;
+  margin: 0 auto; /* Center the footer */
+}
+
+#fr-logo {
+  margin-left: 5%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    min-width: 80%; /* Adjust this as needed */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 1pc;
+    margin-left: 21pc;
+    max-width: 919px;
+  }
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust the gap size as needed */
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  text-align: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  margin-right: -10px;
+}
+
+.copyright-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-payment-contact {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content-section,
+.payment-section,
+.contact-section {
+  width: 100%;
+  padding: 1pc;
 }

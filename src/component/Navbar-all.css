@@ -34,12 +34,11 @@
 .nav-item {
   margin: 0;
   padding: 0;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .nav-item:hover {
-  margin: 0;
+  margin-right: 10px;
   padding: 0;
-  background-color: white;
 }
 
 /* Icon container */
@@ -58,6 +57,12 @@
 }
 
 .nav-link {
+  margin-left: 50px;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
   margin-left: 50px;
   font-size: larger;
   text-decoration: none;
