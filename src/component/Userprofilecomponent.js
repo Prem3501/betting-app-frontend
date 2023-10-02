@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Userprofilecomponent.css";
 import {
   faUser,
   faPhone,
@@ -10,7 +11,7 @@ import {
 
 const UserProfileComponent = () => {
   return (
-    <div className="container">
+    <div className="container" id="user-main">
       <header className="text-center">
         <h1 id="title">User Profile</h1>
       </header>
@@ -38,7 +39,8 @@ const UserProfileComponent = () => {
         <div className="col-md-8" id="usercount">
           <div className="row">
             <h2 id="uservalues">
-              Statistics <FontAwesomeIcon icon={faChartSimple} size="xl" />
+              Statistics <br />
+              <FontAwesomeIcon icon={faChartSimple} size="xl" />
             </h2>
           </div>
           <div className="row">

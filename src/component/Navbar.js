@@ -48,13 +48,13 @@ function CollapsibleExample() {
               marginLeft: "16pc",
             }}
           >
-            <Nav.Link href="#sports" id="custom-nav-link">
+            <Nav.Link href="/Sports" id="custom-nav-link">
               Sports
             </Nav.Link>
-            <Nav.Link href="#casino" id="custom-nav-link">
+            <Nav.Link href="/Casino" id="custom-nav-link">
               Casino
             </Nav.Link>
-            <Nav.Link href="#inplay" id="custom-nav-link">
+            <Nav.Link href="/Inplay" id="custom-nav-link">
               Inplay
             </Nav.Link>
           </Nav>
