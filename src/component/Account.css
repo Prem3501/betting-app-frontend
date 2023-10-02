@@ -9,8 +9,6 @@
 /* Assuming the CSS for your Page2 component is in page2.css */
 /* Styling for the search bar */
 
-.search-bar {
-}
 .search-input {
   display: flex;
   align-items: center;
