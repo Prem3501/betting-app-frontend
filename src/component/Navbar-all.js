@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar-all.css";
 import logoImage from "../images/5_1.png";
-import { CiMoneyBill } from "react-icons/ci";
+import { BiMoney } from "react-icons/bi";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BiWalletAlt } from "react-icons/bi";
-import { CiUser } from "react-icons/ci";
+import { BiSolidUser } from "react-icons/bi";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -72,13 +72,13 @@ const Navbar = () => {
               <BiWalletAlt size={30} />
             </button>
             <button className="icon-button">
-              <CiMoneyBill size={30} />
+              <BiMoney size={30} />
             </button>
             <button className="icon-button">
               <IoSettingsOutline size={30} />
             </button>
             <div className="avatar-container">
-              <CiUser
+              <BiSolidUser
                 className="avatar-icon"
                 size={30}
                 onClick={toggleDropdown}
