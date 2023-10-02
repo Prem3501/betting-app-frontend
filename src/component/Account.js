@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './Account.css';
+import React, { useState } from "react";
+import "./Account.css";
 
 const Account = () => {
   // State to keep track of the selected number of entries
@@ -27,43 +27,41 @@ const Account = () => {
           <span className="entries-label">Entries</span>
         </div>
         <div className="search-bar">
-          <input
-            type="text"
-            placeholder="Search"
-            className="search-input"
-            
-          />
+          <input type="text" placeholder="Search" className="search-input" />
           {/* Add your search icon here */}
           <i className="fa fa-search search-icon" aria-hidden="true"></i>
-         
         </div>
       </div>
       {/* Render the selected number of entries here */}
       <div className="button-row">
         {/* Six buttons */}
         <button className="page-button">
-          Date <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Date <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
         <button className="page-button">
-          Type <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Type <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
         <button className="page-button">
-          Description <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Description <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
         <button className="page-button">
-          Dr <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Dr <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
         <button className="page-button">
-          Cr <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Cr <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
         <button className="page-button">
-          Balance <i className="fas fa-sort-up"></i><i className="fas fa-sort-down"></i>
+          Balance <i className="fas fa-sort-up"></i>
+          <i className="fas fa-sort-down"></i>
         </button>
       </div>
       <div className="horizontal-line"></div>
-      <div className="no-data">
-        No data available in the table
-      </div>
+      <div className="no-data">No data available in the table</div>
       <div className="horizontal-line"></div>
       <div className="pagination">
         <div className="entries-info">0 to 0 of 0 entries</div>

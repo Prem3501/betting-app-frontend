@@ -24,21 +24,6 @@
   margin-left: 5%;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    min-width: 80%; /* Adjust this as needed */
-    padding: 10px; /* Reduce padding for smaller screens */
-  }
-}
-
-@media (min-width: 768px) {
-  .footer {
-    margin-top: 1pc;
-    margin-left: 21pc;
-    max-width: 919px;
-  }
-}
-
 .header-section {
   display: flex;
   flex-direction: row;

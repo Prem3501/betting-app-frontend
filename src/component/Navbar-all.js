@@ -5,7 +5,7 @@ import logoImage from "../images/5_1.png";
 import { CiMoneyBill } from "react-icons/ci";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BiWalletAlt } from "react-icons/bi";
-import { AiOutlineUser } from "react-icons/ai";
+import { CiUser } from "react-icons/ci";
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -51,17 +51,17 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="custom-navbarNav">
           <ul className="navbar-nav mx-auto" id="nav-links">
             <li className="nav-item">
-              <Link to="/sports" className="nav-link">
+              <Link to="/Sports" className="nav-link">
                 Sports
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/casino" className="nav-link">
+              <Link to="/Casino" className="nav-link">
                 Casino
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/inplay" className="nav-link">
+              <Link to="/Inplay" className="nav-link">
                 Inplay
               </Link>
             </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
               <IoSettingsOutline size={30} />
             </button>
             <div className="avatar-container">
-              <AiOutlineUser
+              <CiUser
                 className="avatar-icon"
                 size={30}
                 onClick={toggleDropdown}

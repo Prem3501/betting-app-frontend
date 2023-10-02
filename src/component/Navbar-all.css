@@ -54,6 +54,9 @@
   background: transparent;
   border: none;
   margin-right: 30px;
+  color: #ffffff; /* Replace with your desired color code */
+  background-color: transparent;
+  padding: 0;
 }
 
 .nav-link {
@@ -81,7 +84,7 @@
   cursor: pointer;
   border: none;
   margin-right: 20px;
-  color: black;
+  color: white;
 }
 
 /* Dropdown container */
