@@ -10,8 +10,11 @@
   align-items: center;
   justify-content: center;
   z-index: 999;
+  font-family: Poppins;
 }
-
+.para1 {
+  color: black;
+}
 /* Styling for the columns */
 .signInContainer {
   display: flex;
@@ -21,8 +24,8 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2pc;
 }
-
 
 #imgcard {
   max-width: 100%;
@@ -32,16 +35,14 @@
   margin-top: -6pc;
 }
 
-
-
 /* Styling for normal screens */
 .responsive-input {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #CE6B6A;
+  border: 1px solid #ce6b6a;
   border-radius: 4px;
-  background-color: #F6C5C8;
+  background-color: #f6c5c8;
   font-size: 16px;
   /* Default font size for normal screens */
 }
@@ -54,31 +55,25 @@
   }
 }
 
-
-
 /* Styling for the form */
-form {
+#rs-form {
   display: flex;
   flex-direction: column;
 }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-label {
+#rs-label {
   font-weight: bold;
   margin-bottom: 8px;
+  color: black;
 }
 
-input[type="checkbox"] {
+#rs-checkbox {
   margin-right: 8px;
 }
 
-button[type="submit"] {
+#rs-button {
   padding: 10px 20px;
-  background-color: #B83734;
+  background-color: #b83734;
   color: white;
   border: none;
   border-radius: 4px;
@@ -86,7 +81,7 @@ button[type="submit"] {
 }
 
 #register {
-  color: #FFA3A3;
+  color: #ffa3a3;
   text-decoration: none !important;
 }
 
@@ -96,9 +91,9 @@ button[type="submit"] {
   text-align: center;
   margin-top: -3pc;
 }
-#subpayement{
+#subpayement {
   width: 100%;
-  margin-left:5%;
+  margin-left: 5%;
 }
 
 .closeButton {

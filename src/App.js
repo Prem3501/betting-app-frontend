@@ -6,7 +6,6 @@ import Termsandcondition from "./pages/Termsandcondition";
 import KYC from "./pages/KYC";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sports from "./pages/Sports";
-import Userprofile from "./pages/Userprofile";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Route path="/Termsandconditions" element={<Termsandcondition />} />
         <Route path="/About" element={<About />} />
         <Route path="/Sports" element={<Sports />} />
-        <Route path="/Userprofile" element={<Userprofile />} />
       </Routes>
     </Router>
   );

@@ -102,7 +102,7 @@ const SignInPopup = ({ onClose }) => {
                   </button>
                   <p className="para1">
                     Don't have an account?{" "}
-                    <a href="#" id="register" onClick={toggleRegister}>
+                    <a href="/register" id="register" onClick={toggleRegister}>
                       Register
                     </a>
                   </p>

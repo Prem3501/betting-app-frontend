@@ -7,8 +7,6 @@ import SignInPopup from "./signin";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Register from "./register";
 import logo from "../images/5_1.png";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function CollapsibleExample() {
   const [showSignInPopup, setShowSignInPopup] = useState(false);
@@ -32,7 +30,7 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" id="navbar">
       <Container>
-        <Navbar.Brand href="/" className="custom-navbar-brand">
+        <Navbar.Brand href="#home" className="custom-navbar-brand">
           <img
             alt=""
             src={logo}
@@ -50,22 +48,22 @@ function CollapsibleExample() {
               marginLeft: "16pc",
             }}
           >
-            <Nav.Link href="/sports" id="custom-nav-link">
+            <Nav.Link href="#sports" id="custom-nav-link">
               Sports
             </Nav.Link>
-            <Nav.Link href="/casino" id="custom-nav-link">
+            <Nav.Link href="#casino" id="custom-nav-link">
               Casino
             </Nav.Link>
-            <Nav.Link href="/inplay" id="custom-nav-link">
+            <Nav.Link href="#inplay" id="custom-nav-link">
               Inplay
             </Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/signin" id="nav-link" onClick={handleSignInClick}>
+            <Nav.Link href="#signin" id="nav-link" onClick={handleSignInClick}>
               Sign In
             </Nav.Link>
             <Nav.Link
-              href="/register"
+              href="#register"
               id="nav-link"
               onClick={handleRegisterClick}
             >
