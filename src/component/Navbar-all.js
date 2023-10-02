@@ -87,19 +87,19 @@ const Navbar = () => {
                 className={`account-dropdown ${dropdownVisible ? "show" : ""}`}
                 id="dropdown-menu"
               >
-                <Link to="/user-profile" className="dropdown-link">
+                <Link to="/Userprofile" className="dropdown-link">
                   User Profile
                 </Link>
-                <Link to="/account" className="dropdown-link">
+                <Link to="/Account" className="dropdown-link">
                   Account
                 </Link>
-                <Link to="/withdraw" className="dropdown-link">
+                <Link to="/Withdraw" className="dropdown-link">
                   Withdraw
                 </Link>
-                <Link to="/transaction" className="dropdown-link">
+                <Link to="/Transaction" className="dropdown-link">
                   Transaction
                 </Link>
-                <Link to="/open-bets" className="dropdown-link">
+                <Link to="/Open-bets" className="dropdown-link">
                   Open Bets
                 </Link>
               </div>
